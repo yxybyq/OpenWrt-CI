@@ -7,16 +7,16 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI
+name: zy专用版
 
 on:
   push:
     branches: 
-      - master
-  # schedule:
-  #   - cron: 0 20 * * *
-  # release:
-  #   types: [published]
+    - master
+  schedule:
+    - cron: 0 20 * * *
+  release:
+  types: [published]
 
 jobs:
 
